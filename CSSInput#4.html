@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSSMenu</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		input, textarea{
+			display: block;
+			width: 320px;
+			height: 35px;
+			margin-right: 75px;
+			margin-top: 7px;
+			border-radius: 20px;
+			border: 1px solid silver;
+			background-color: silver;
+			outline: none;
+			padding-left: 10px;
+		}
+		form {
+			background: white;
+			width: 800px;
+			height: 400px;
+		}
+		body {
+			background-color: #6f2dcc;
+		}
+		img {
+			float: left;
+			margin-top: 30px;
+			margin-left: 20px;
+		}
+		.right {
+			float: right;
+			margin-top: 30px;
+		}
+		.btn {
+			width: 320px;
+			padding: 10px;
+			background-color: #6f2dcc;
+			margin-top: 10px;
+			border-radius: 20px;
+			text-align: center;
+		}
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		textarea {
+			padding-top: 10px;
+		}
+		i.fa {
+  		width: 26px;
+  		height: 26px;
+  		line-height: 26px;
+  		text-align: center;
+  		margin-right: -26px;
+  		position: relative;
+  		z-index: 1;
+  		float: left;
+		}
+		i.fa + input {
+  		padding-left: 30px;
+  		margin-top: -5px;
+		}
+	</style>
+</head>
+<body>
+<form>
+	<img src="MailIcon.png">
+	<div class="right">
+	<h3>Get in touch</h3>
+	<i class="fa fa-address-book-o" aria-hidden="true"></i>
+	<input type="text" name="username" placeholder="Name">
+	<input type="email" name="email" placeholder="Email">
+	<textarea type="text" name="message" placeholder="Message..." style="height: 120px;"></textarea>
+	<div class="btn">
+	<a href="#">Send</a>
+</div>
+	</div>
+</form>
+</body>
+</html>
