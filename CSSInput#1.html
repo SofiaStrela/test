@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=”utf-8”>
+	<title>Login</title>
+ <style type="text/css">
+	.btn{
+		color: white;
+        background-color: #00CED1;
+        border-radius: 4px;
+        text-align: center;
+        width: 80px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 5px;
+        padding: 10px;
+        text-transform: uppercase;
+        }
+    input {
+    	display: block;
+    	width: 250px;
+    	height: 35px;
+    	margin: auto;
+    	margin-top: -1px;
+    	border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .one {
+    	border-radius: 3px 3px 0 0;
+    }
+    .two {
+    	border-radius: 0 0 3px 3px;
+    }
+    body {
+    	background: grey;
+    }
+    form {
+    	background: white;
+    	width: 300px;
+    	border-radius: 3px;
+    	margin-top: 50%;
+    	margin-left: 50%;
+    	position: absolute;
+    	transform: translate(-50%, -50%);
+    }
+    h3 {
+    	background-color: rgb(29, 29, 29);
+    	color: white;
+    	text-align: center;   
+    	padding: 30px;
+    	border-radius: 3px 3px 0 0;
+    	margin-top: 0;
+    }
+    .password {
+    	color: grey;
+    	text-decoration: none;
+    	margin-left: 5px;    
+    }
+    img {
+    	height: 20px;
+    	width: 20px;
+    	margin-left: 18px;
+    }
+    .number {
+    	height: 15px;
+    	width: 15px;
+    	transform: rotate(45deg);
+    	background-color: white;
+    	margin: auto;
+    	margin-top: -25px;
+    	margin-bottom: 10px;
+    }
+	</style>
+</head>
+<body>
+	<form>
+	<h3>Авторизация на сайте</h3>
+	<div class="number"></div>
+	<input class="one" type="name" name="Login">
+	<input class="two" type="password" name="Password">
+	<p>
+	<img src="QM.png">
+	<a class="password" href="#">Забыли пароль?</a>
+	<a class="btn" href="#">Войти</a>
+	</p>
+	</form>
+</body>
+</html>
